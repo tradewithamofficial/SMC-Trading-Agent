@@ -1,0 +1,77 @@
+telegram_config.local.json
+telegram_config.local.json.*
+/tests/telegram_preview.txt
+
+# Private configuration, authentication and browser/session state
+.env
+.env.*
+*.local.json
+*.local.toml
+auth.json
+models_cache.json
+.codex/
+.tradingview/
+browser-data/
+user-data/
+Cookies
+Login Data
+Local State
+*.pem
+*.key
+*.p12
+*.pfx
+*.har
+*.dmp
+*.sqlite
+*.sqlite3
+*.sqlite-*
+
+# Local analysis records and diagnostics can contain private chart/account data
+/diagnostics/
+/runs/
+/logs/
+*.log
+*.tmp
+*.bak
+
+# Environments, Python caches and local IDE settings
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+coverage.xml
+htmlcov/
+.idea/
+.vscode/
+
+# Build products belong in GitHub Releases, not source control
+/build/
+/dist/
+/release/
+*.spec
+*.exe
+*.dll
+*.pyd
+*.zip
+*.7z
+*.msi
+.DS_Store
+Thumbs.db
+
+# Unused local artwork originals; no files are deleted
+/assets/Gemini_Generated_Image_h87vqsh87vqsh87v.jpg
+
+
+# Private local analysis results and manual previews
+/responses/
+/tests/telegram_preview.txt
+/reference_simple/response*.txt
+
+# Superseded local artwork; preserve locally, exclude from source
+/assets/TradeWithAM_Robot_old.ico

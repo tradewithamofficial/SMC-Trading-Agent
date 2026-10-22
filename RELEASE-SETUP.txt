@@ -1,0 +1,33 @@
+Trade With AM — SMC Trading Agent v1.0.0 — Windows x64
+
+Extract the ENTIRE ZIP into a writable folder and run SMCTradingAgent.exe.
+Python is bundled; no separate Python installation is required for the EXE.
+Keep _internal, reference_simple, LICENSE and third_party_licenses in place.
+
+External prerequisites (not bundled): Windows, TradingView Desktop, Node.js,
+working TradingView MCP/debug setup, installed/authenticated Codex CLI and access
+to the selected model. Use your existing connection; no global setup is changed.
+Default connector path: %USERPROFILE%\tradingview-mcp.
+
+Select one chart and model. All Charts is not implemented. Six demonstration
+checkboxes default to selected; all six SMC models are considered regardless
+of their state. The left button uses 1D/4H/1H context and 15m/5m execution to
+identify up to three justified ideas. Drawings use SMC Intraday Setup 1/2/3.
+The right button reads existing setups/current evidence and never sends Telegram.
+No automated orders, deletion/replacement, cleanup or automatic retries.
+
+Editable prompts beside the EXE:
+reference_simple/smc_setups.txt
+reference_simple/smc_entry_conditions.txt
+
+Optional Telegram: copy telegram_config.example.json to telegram_config.local.json
+beside the EXE. Fill your private bot_token and exact numeric chat_id as strings.
+Only successful left analysis sends the complete response, split into numbered
+parts when needed. Missing config/delivery failure preserves the copyable result.
+Do not share private configuration, credentials, responses or logs.
+
+Local responses are created in responses/ beside the EXE. An idea/drawing does not
+prove a confirmed trade trigger. Review actual market evidence and partial failures.
+
+Full source instructions: https://github.com/tradewithamofficial/SMC-Trading-Agent
+MIT project license; retain the supplied third-party notices with redistribution.

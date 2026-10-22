@@ -1,0 +1,24 @@
+Trade With AM — SMC Trading Agent: Check Entry Conditions
+
+This is a strictly READ-ONLY inquiry on the exact GUI-approved TradingView chart. Use the existing permitted inspection tools and ordinary readable output, with no drawing schema or new analysis/drawing run.
+
+Inspect existing groups named exactly:
+SMC Intraday Setup 1
+SMC Intraday Setup 2
+SMC Intraday Setup 3
+
+Read only the groups actually present and their drawings, annotations, model labels, trigger/entry conditions, invalidation, stops and targets. Group names alone do not establish a valid setup or entry level. If no matching groups exist, reply briefly:
+"No SMC setups were found on this chart. Please run Find SMC Trade Setups first."
+
+Read current chart data and available completed candles. Determine which existing setup, if any, best fits the present market state. Explain:
+- Relevant saved setup name/rank and model; do not invent an absent setup.
+- Whether the saved entry trigger is satisfied, still pending, weakened or invalidated.
+- Actual relevant trigger, confirmation, invalidation, stop and target levels when supported by existing evidence.
+- WAIT, MONITOR or CONDITIONAL SETUP, and exactly what the trader should wait for next.
+- Whether stale, incomplete or conflicting evidence means full SMC analysis should be rerun.
+
+Distinguish WATCHLIST SETUP from CONFIRMED TRIGGER. Prefer completed candles over a forming candle. State the relevant timeframe and evidence; if confirmation requires a different timeframe that cannot be inspected without changing the chart, disclose that limitation and WAIT/MONITOR. Do not manufacture confirmation, session eligibility, prices or targets. The demonstration model checkboxes do not affect this inquiry.
+
+Do not switch timeframes, symbols, tabs, layouts or panes. Do not create, delete, modify, move, rename, regroup, hide/show or reorganize any drawings, groups, studies, indicators or visibility settings. Any supported page inspection must be read-only, never a mutation/setter. No order placement, exchange access, alerts, Telegram, tool installation or global configuration changes. Stop on denied tools, missing data or infrastructure failures and report the real error, not a successful WAIT. No automatic retry or permission workaround.
+
+Return a short practical copyable text response describing the current readiness, conditions still needed, invalidation and next action to watch. This is guidance about existing chart ideas, not authorization to trade.

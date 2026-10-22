@@ -1,0 +1,3 @@
+# Runtime UI dependencies. Trading/Telegram integrations remain external or stdlib.
+customtkinter==6.0.0
+Pillow==13.0.0

@@ -1,0 +1,4 @@
+# Runtime UI plus build dependencies; the official CTk data hook is included below.
+-r requirements.txt
+pyinstaller==6.22.3
+pyinstaller-hooks-contrib==2026.8
