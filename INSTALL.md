@@ -1,5 +1,8 @@
 # Installation and usage
 
+For one-step-at-a-time help, copy the [ChatGPT installation guide](INSTALL-WITH-CHATGPT.md)
+or [full setup/customization Master Prompt](docs/CHATGPT_MASTER_PROMPT.md).
+
 ## Windows ZIP
 
 1. Install/configure TradingView Desktop, Node.js, TradingView MCP, and an

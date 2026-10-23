@@ -41,9 +41,20 @@ authentication are not bundled. No global configuration is installed or changed.
 The existing `SR_CODEX_PATH`, `SR_NODE_PATH`, `SR_TRADINGVIEW_MCP_DIR`, and
 `SR_SYMBOLS` overrides remain supported; their names are retained for compatibility.
 
+## Install or Customize with ChatGPT — No Coding Experience Required to Start
+
+Copy the [installation guide](INSTALL-WITH-CHATGPT.md) into a new ChatGPT conversation
+for one-step-at-a-time setup. The [full ChatGPT Master Prompt](docs/CHATGPT_MASTER_PROMPT.md)
+also guides optional, focused development using Codex after installation works.
+Start with the [Windows v1.0.0 release](https://github.com/tradewithamofficial/SMC-Trading-Agent/releases/tag/v1.0.0); Python/PyCharm are not needed
+for its EXE, but the existing external Codex/TradingView MCP setup is required for
+analysis. Future examples include implementing the visible **All Charts** checkbox;
+multi-chart processing is not implemented in V1. No code or release asset changes
+are made by this documentation update.
+
 ## Windows executable
 
-After publication, download `SMCTradingAgent-v1.0.0-windows-x64.zip` from this
+Download `SMCTradingAgent-v1.0.0-windows-x64.zip` from this
 repository's [Releases](https://github.com/tradewithamofficial/SMC-Trading-Agent/releases).
 Extract the **whole ZIP** into a writable folder, then run
 `SMCTradingAgent/SMCTradingAgent.exe`. **Python is not required separately.**
