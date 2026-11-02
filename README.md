@@ -5,6 +5,10 @@ TradingView Desktop/MCP connection and authenticated Codex CLI. It creates and g
 chart ideas, checks their entry conditions, and optionally sends complete reports to
 Telegram. **It does not automatically execute trades.**
 
+[**Install with ChatGPT — Step-by-Step**](INSTALL-WITH-CHATGPT.md)
+
+**Start here:** [TradingView MCP installation video](https://youtu.be/dwptd_aNn6I) · [Trade With AM YouTube channel](https://www.youtube.com/@TradeWithAMTrading/videos)
+
 ## V1.0.0 functionality
 
 - **Find SMC Trade Setups:** 1D → 4H → 1H for directional context, liquidity,
